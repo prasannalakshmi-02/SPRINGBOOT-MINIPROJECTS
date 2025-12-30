@@ -31,7 +31,7 @@ Here is the archive of concepts I have explored so far.
 | # | Project Name | 🧠 Core Concept Explored | 📝 Technical Takeaway |
 |:---:|:---|:---|:---|
 | **01** | [**Notification Engine**](./notification-engine) | **`@ConditionalOnProperty`** | Explored how to create flexible beans. This project dynamically switches between an **Email Service** and an **SMS Service** based on a simple flag in `application.properties`, without changing a single line of Java code. |
-| **02** | *Work in Progress* | *Dependency Injection* | *Deep dive into Constructor vs Field Injection...* |
+| **02** | [**ATM Simulation**](./atm-simulation) | **AOP (`@Aspect`)** | Implemented the Proxy Pattern to handle cross-cutting concerns. Used `@Before` for high-value security checks and `@Around` for performance monitoring, keeping business logic pure. |
 | **03** | *Upcoming...* | *Spring Profiles* | *Managing Dev/Prod environments...* |
 
 ---
